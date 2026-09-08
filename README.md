@@ -39,25 +39,6 @@ pnpm install
 pnpm build      # 产物输出到 frontend/dist
 ```
 
-## 免费部署
-
-### 方式一：GitHub Pages（推到仓库即自动上线）
-
-1. 把本仓库推到 `tyy1a6/<仓库名>` 的 `main` 分支
-2. 仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**
-3. 等待 1~2 分钟，访问 `https://tyy1a6.github.io/<仓库名>/`
-
-构建命令：`cd frontend && pnpm build`，发布目录：`frontend/dist`。
-
-### 方式二：Vercel / Cloudflare Pages / Netlify
-
-- Build command：`cd frontend && pnpm build`
-- Output directory：`frontend/dist`
-- 其余默认即可。
-
-### 方式三：Genie 发布环境
-
-由 Genie 直接托管于 `https://fengyuan-village.app.workbuddy.link/`，修改后告诉我「发布」即可。
 
 ## 本地预览
 
