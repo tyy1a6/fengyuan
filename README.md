@@ -1,6 +1,6 @@
 # 凤院村 · 百千万工程门户
 
-从化凤院村「百千万工程」村级门户静态站点，包含 **村情概况、VR 全景、新媒体（视频号 / 公众号）、文化名片** 等板块。纯静态构建，可免费托管于 GitHub Pages / Vercel / Cloudflare Pages / Netlify，也由 Genie 发布环境直接上线。
+从化凤院村「百千万工程」村级门户静态站点，包含 **村情概况、VR 全景、新媒体（视频号 / 公众号）、文化名片** 等板块。纯静态构建，免费托管于 GitHub Pages。
 
 线上地址：https://fengyuan-village.app.workbuddy.link/
 
