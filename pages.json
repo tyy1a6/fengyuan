@@ -1,0 +1,22 @@
+[
+  {
+    "pageKey": "Home",
+    "title": "首页",
+    "url": "/"
+  },
+  {
+    "pageKey": "About",
+    "title": "村情概况",
+    "url": "/about"
+  },
+  {
+    "pageKey": "Media",
+    "title": "新媒体",
+    "url": "/media"
+  },
+  {
+    "pageKey": "VR",
+    "title": "VR全景",
+    "url": "/vr"
+  }
+]

@@ -1,0 +1,17 @@
+services:
+  fengyuan-village:
+    build: .
+    image: fengyuan-village:latest
+    container_name: fengyuan-village
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - CORS_ORIGIN=*
+      - ADMIN_PASSWORD=fengyuan@2026
+      - DATA_DIR=/app/backend/data
+    volumes:
+      # 后台编辑的内容（站点配置、文档）持久化到宿主机 ./data 目录
+      - ./data:/app/backend/data
+    restart: unless-stopped

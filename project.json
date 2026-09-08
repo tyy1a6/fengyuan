@@ -1,0 +1,8 @@
+{
+  "project_type": "web",
+  "sub_project_type": "",
+  "name": "百千万凤院村",
+  "app_slug": "fengyuan-village",
+  "version_description": "改造为纯静态版 数据烘焙进前端",
+  "preview_type": "pc"
+}
