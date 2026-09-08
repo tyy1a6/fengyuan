@@ -1,0 +1,18 @@
+# 依赖与构建产物（镜像内会重新安装/构建，无需复制）
+**/node_modules
+**/dist
+backend/dist
+
+# 运行时数据（由 seed 兜底，容器内用 volume 持久化）
+backend/src/data/*.json
+
+# 版本控制与日志
+.git
+**/.git
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 本地环境变量（自行按 .env.example 配置）
+**/.env
+**/.env.local
